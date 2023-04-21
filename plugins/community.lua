@@ -7,5 +7,4 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.tokyonight", enabled = true },
-  { import = "astrocommunity.media.pets-nvim", enabled = true },
 }
