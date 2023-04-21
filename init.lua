@@ -18,7 +18,17 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "tokyonight",
+
+  plugins = {
+    {
+      "folke/tokyonight.nvim",
+      as = "tokyonight",
+      config = function()
+        require("tokyonight").setup {}
+      end,
+    },
+  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
