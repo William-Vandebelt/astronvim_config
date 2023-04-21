@@ -12,6 +12,9 @@ return {
   {
     'phaazon/hop.nvim',
     branch = 'v2',
+    keys = {
+      { "<leader>h1", "<cmd>HopChar1<cr>", desc = "HopeChar1" },
+    },
     config = function()
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
     end,
