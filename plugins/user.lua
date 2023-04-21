@@ -14,6 +14,9 @@ return {
     branch = 'v2',
     keys = {
       { "<leader>h1", "<cmd>HopChar1<cr>", desc = "HopeChar1" },
+      { "<leader>h2", "<cmd>HopChar2<cr>", desc = "HopeChar2" },
+      { "<leader>hs", "<cmd>HopPattern<cr>", desc = "HopPattern" },
+      { "<leader>hw", "<cmd>HopWord<cr>", desc = "HopWord" },
     },
     config = function()
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
