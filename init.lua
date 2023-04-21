@@ -26,7 +26,7 @@ return {
         require("hop").setup {}
       end,
     },
-  }
+  },
 
   -- Set colorscheme to use
   colorscheme = "tokyonight",
