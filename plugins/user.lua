@@ -10,6 +10,7 @@ return {
   --   end,
   -- },
   {
-    "phaazon/hop.nvim"
+    "phaazon/hop.nvim",
+    require'hop'.setup(),
   }
 }
