@@ -17,16 +17,6 @@ return {
     },
   },
 
-  plugins = {
-    {
-      'phaazon/hop.nvim',
-      branch = 'v2',
-      config = function()
-        require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
-      end,
-    },
-  },
-
   -- Set colorscheme to use
   colorscheme = "tokyonight",
 
